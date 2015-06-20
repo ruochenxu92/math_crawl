@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/usr/local/bin/scrapy", line 11, in <module>
+    sys.exit(execute())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/cmdline.py", line 143, in execute
+    _run_print_help(parser, _run_command, cmd, args, opts)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/cmdline.py", line 89, in _run_print_help
+    func(*a, **kw)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/cmdline.py", line 150, in _run_command
+    cmd.run(args, opts)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/commands/crawl.py", line 58, in run
+    spider = crawler.spiders.create(spname, **opts.spargs)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermanager.py", line 44, in create
+    raise KeyError("Spider not found: %s" % spider_name)
+KeyError: 'Spider not found: xxu46_30'

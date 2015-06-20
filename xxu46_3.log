@@ -1,0 +1,81 @@
+2015-05-19 02:59:53+0000 [scrapy] INFO: Scrapy 0.24.6 started (bot: superqq_spider)
+2015-05-19 02:59:53+0000 [scrapy] INFO: Optional features available: ssl, http11
+2015-05-19 02:59:53+0000 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'superqq_spider.spiders', 'SPIDER_MODULES': ['superqq_spider.spiders'], 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 10, 'BOT_NAME': 'superqq_spider'}
+2015-05-19 02:59:53+0000 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-05-19 02:59:53+0000 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentPoolMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-05-19 02:59:53+0000 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-05-19 02:59:53+0000 [scrapy] INFO: Enabled item pipelines: JsonWriterPipeline
+2015-05-19 02:59:53+0000 [xxu46_3] INFO: Spider opened
+2015-05-19 02:59:53+0000 [xxu46_3] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-05-19 02:59:53+0000 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6026
+2015-05-19 02:59:53+0000 [scrapy] DEBUG: Web service listening on 127.0.0.1:6083
+2015-05-19 03:00:16+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=9000&show=1000> (referer: None)
+2015-05-19 03:00:16+0000 [xxu46_3] DEBUG: Filtered duplicate request: <GET http://arxiv.org/abs/1112.5625> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-05-19 03:00:25+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/12?skip=0&show=1000> (referer: None)
+2015-05-19 03:00:53+0000 [xxu46_3] INFO: Crawled 2 pages (at 2 pages/min), scraped 0 items (at 0 items/min)
+2015-05-19 03:00:54+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=8000&show=1000> (referer: None)
+2015-05-19 03:00:58+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=7000&show=1000> (referer: None)
+2015-05-19 03:01:08+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=6000&show=1000> (referer: None)
+2015-05-19 03:01:16+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1112.0262> (referer: http://arxiv.org/list/cs/11?skip=9000&show=1000)
+2015-05-19 03:01:16+0000 [xxu46_3] DEBUG: Scraped from <200 http://arxiv.org/abs/1112.0262>
+	{'abstract': u"Models that explain the economical and political realities of nowadays societies should help all the world's citizens. Yet, the last four years showed that the current models are missing. Here we develop a dynamical society-deciders model showing that the long lasting economical stress can be solved when increasing fairness in nations. fairness is computed for each nation using indicators from economy and politics. Rather than austerity versus spending, the dynamical model suggests that solving crises in western societies is possible with regulations that reduce the stability of the deciders, while shifting wealth in the direction of the people. This shall increase the dynamics among socio-economic classes, further increasing fairness.",
+	 'authors': u'Ophir Flomenbom,',
+	 'category': u'Computer Science ',
+	 'date': '2011-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1112.0262',
+	 'subjects': u'Physics and Society (physics.soc-ph)',
+	 'title': u'\nFairness in society',
+	 'urllink': u'http://arxiv.org/abs/1112.0262'}
+2015-05-19 03:01:19+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=5000&show=1000> (referer: None)
+2015-05-19 03:01:30+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1112.0391> (referer: http://arxiv.org/list/cs/11?skip=9000&show=1000)
+2015-05-19 03:01:30+0000 [xxu46_3] DEBUG: Scraped from <200 http://arxiv.org/abs/1112.0391>
+	{'abstract': u'This paper studies the problem of accurately recovering a sparse vector from highly corrupted linear measurements where is a sparse error vector whose nonzero entries may be unbounded and is a bounded noise. We propose a so-called extended Lasso optimization which takes into consideration sparse prior information of both and . Our first result shows that the extended Lasso can faithfully recover both the regression as well as the corruption vector. Our analysis relies on the notion of extended restricted eigenvalue for the design matrix . Our second set of results applies to a general class of Gaussian design matrix with i.i.d rows , for which we can establish a surprising result: the extended Lasso can recover exact signed supports of both and from only observations, even when the fraction of corruption is arbitrarily close to one. Our analysis also shows that this amount of observations required to achieve exact signed support is indeed optimal.',
+	 'authors': u'Nam H. Nguyen, Trac D. Tran,',
+	 'category': u'Computer Science ',
+	 'date': '2011-12-2',
+	 'pdflink': u'http://arxiv.org/pdf/1112.0391',
+	 'subjects': u'Statistics Theory (math.ST)',
+	 'title': u'\nRobust Lasso with missing and grossly corrupted observations',
+	 'urllink': u'http://arxiv.org/abs/1112.0391'}
+2015-05-19 03:01:31+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/list/cs/11?skip=4000&show=1000> (referer: None)
+2015-05-19 03:01:45+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1112.0348> (referer: http://arxiv.org/list/cs/11?skip=9000&show=1000)
+2015-05-19 03:01:45+0000 [xxu46_3] DEBUG: Scraped from <200 http://arxiv.org/abs/1112.0348>
+	{'abstract': u'In this paper, we characterize the network stability region (capacity region) of multi-queue multi-server (MQMS) queueing systems with stationary channel distribution and stationary arrival processes. The stability region is specified by a finite set of linear inequalities. We first show that the stability region is a polytope characterized by the finite set of its facet defining hyperplanes. We explicitly determine the coefficients of the linear inequalities describing the facet defining hyperplanes of the stability region polytope. We further derive the necessary and sufficient conditions for the stability of the system for general arrival processes with finite first and second moments. For the case of stationary arrival processes, the derived conditions characterize the system stability region. Furthermore, we obtain an upper bound for the average queueing delay of Maximum Weight (MW) server allocation policy which has been shown in the literature to be a throughput optimal policy for MQMS systems. Using a similar approach, we can characterize the stability region for a fluid model MQMS system. However, the stability region of the fluid model system is described by an infinite number of linear inequalities since in this case the stability region is a convex surface. We present an example where we show that in some cases depending on the channel distribution, the stability region can be characterized by a finite set of non-linear inequalities instead of an infinite number of linear inequalities.',
+	 'authors': u'Hassan Halabian, Ioannis Lambadaris, Chung-Horng Lung,',
+	 'category': u'Computer Science ',
+	 'date': '2011-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1112.0348',
+	 'subjects': u'Optimization and Control (math.OC)',
+	 'title': u'\nExplicit Characterization of Stability Region for Stationary Multi-Queue  Multi-Server Systems',
+	 'urllink': u'http://arxiv.org/abs/1112.0348'}
+2015-05-19 03:01:53+0000 [xxu46_3] INFO: Crawled 10 pages (at 8 pages/min), scraped 3 items (at 3 items/min)
+2015-05-19 03:01:57+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1112.0329> (referer: http://arxiv.org/list/cs/11?skip=9000&show=1000)
+2015-05-19 03:01:58+0000 [xxu46_3] DEBUG: Scraped from <200 http://arxiv.org/abs/1112.0329>
+	{'abstract': u'We present a working prototype of YouASTRO (www.youastro.org), a web-based BibTeX-compliant reference management software (RMS) for astrophysical papers in the SAO/NASA ADS database. It also includes as a main feature the concept of distributed paper comments and ratings. In these paper, we introduce the main characteristics of the web application, and we will briefly discuss what could be the advantages and drawbacks of such a system being widespread adopted by the astrophysical community for its scientific literature.',
+	 'authors': u'F. Bocchino, J. Lopez-Santiago, F. Albacete-Colombo, N. Bucciantini,',
+	 'category': u'Computer Science ',
+	 'date': '2011-12-1',
+	 'pdflink': u'http://arxiv.org/pdf/1112.0329',
+	 'subjects': u'Instrumentation and Methods for Astrophysics (astro-ph.IM)',
+	 'title': u'\nYouASTRO: a web-based bibliography management system with distributed  comments and rating features for SAO/NASA ADS papers',
+	 'urllink': u'http://arxiv.org/abs/1112.0329'}
+2015-05-19 03:02:11+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1112.0311> (referer: http://arxiv.org/list/cs/11?skip=9000&show=1000)
+2015-05-19 03:02:12+0000 [xxu46_3] DEBUG: Scraped from <200 http://arxiv.org/abs/1112.0311>
+	{'abstract': u'It has recently been proved that the popular nonlocal means (NLM) denoising algorithm does not optimally denoise images with sharp edges. Its weakness lies in the isotropic nature of the neighborhoods it uses to set its smoothing weights. In response, in this paper we introduce several theoretical and practical anisotropic nonlocal means (ANLM) algorithms and prove that they are near minimax optimal for edge-dominated images from the Horizon class. On real-world test images, an ANLM algorithm that adapts to the underlying image gradients outperforms NLM by a significant margin.',
+	 'authors': u'Arian Maleki, Manjari Narayan, Richard G. Baraniuk,',
+	 'category': u'Computer Science ',
+	 'date': '2011-11-30',
+	 'pdflink': u'http://arxiv.org/pdf/1112.0311',
+	 'subjects': u'Statistics Theory (math.ST)',
+	 'title': u'\nAnisotropic Nonlocal Means Denoising',
+	 'urllink': u'http://arxiv.org/abs/1112.0311'}
+2015-05-19 03:02:24+0000 [xxu46_3] DEBUG: Crawled (200) <GET http://arxiv.org/abs/1112.0617> (referer: http://arxiv.org/list/cs/11?skip=9000&show=1000)
+2015-05-19 03:02:25+0000 [xxu46_3] DEBUG: Scraped from <200 http://arxiv.org/abs/1112.0617>
+	{'abstract': u'We introduce a physical approach to social networks (SNs) in which each actor is characterized by a yes-no test on a physical system. This allows us to consider SNs beyond those originated by interactions based on pre-existing properties, as in a classical SN (CSN). As an example of SNs beyond CSNs, we introduce quantum SNs (QSNs) in which actor is characterized by a test of whether or not the system is in a quantum state. We show that QSNs outperform CSNs for a certain task and some graphs. We identify the simplest of these graphs and show that graphs in which QSNs outperform CSNs are increasingly frequent as the number of vertices increases. We also discuss more general SNs and identify the simplest graphs in which QSNs cannot be outperformed.',
+	 'authors': u'Adan Cabello, Lars Eirik Danielsen, Antonio J. Lopez-Tarrida, Jose R. Portillo,',
+	 'category': u'Computer Science ',
+	 'date': '2011-12-3',
+	 'pdflink': u'http://arxiv.org/pdf/1112.0617',
+	 'subjects': u'Physics and Society (physics.soc-ph)',
+	 'title': u'\nQuantum social networks',
+	 'urllink': u'http://arxiv.org/abs/1112.0617'}
